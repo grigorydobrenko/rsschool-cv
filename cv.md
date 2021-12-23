@@ -21,3 +21,11 @@ function getCount(str) {
   return vowelsCount;
 }
 ```
+## Experience
+## Education
+**University:** Belarusian National Technical University, Heat power engineering
+**Courses:**
+* [HTML for frontend developers](https://itgid.info/course/html)
+* [Js 2.0](https://itgid.info/course/javascript-2)
+## Language
+**B1** (I practice my English with professional teacher on [italki.com](https://www.italki.com/))
