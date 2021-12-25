@@ -82,6 +82,21 @@
                     </section>
                     <section class="code-example" id="code-example">
                         <h2 class="code-example">Code</h2>
+                        <pre>
+                            <code>
+                                function validatePIN(str) {
+                                if (str.length !== 4 && str.length !== 6) {
+                                  return false;
+                                }
+                                for (let i = 0; i < str.length; i++) {
+                                  if (str[i] < '0' || str[i] > '9') {
+                                    return false;
+                                  }
+                                }
+                                return true;
+                              }
+                            </code>
+                        </pre>
                     </section>
                     <section class="language" id="language">
                         <h2 class="language">language</h2>
