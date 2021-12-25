@@ -1,1 +1,12 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+header, 
+main, 
+footer {border: 1px solid red;}
+
 a { text-decoration: none; }
+
