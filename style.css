@@ -15,3 +15,6 @@ footer {border: 1px solid red;}
 
 a { text-decoration: none; }
 
+html {
+  scroll-behavior: smooth; 
+}
