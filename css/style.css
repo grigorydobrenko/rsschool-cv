@@ -62,6 +62,8 @@ footer {border: 1px solid red;}
 a { text-decoration: none; }
 
 .code {
+  display: block;
+  padding-top: 20px;
   font-family: 'Brush Script MT', 'Brush Script Std', cursive; 
   /* font-family: 'DejaVu Sans Mono', monospace; */
   /* font-family: Courier, monospace; */
