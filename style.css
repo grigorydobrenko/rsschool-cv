@@ -8,6 +8,19 @@
     max-width: 1440px;
     margin: 0 auto;
   }
+
+ .two-columns {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .left-column {
+   width: 40%;
+ }
+
+ .right-column {
+  width: 60%;
+}
   
 header, 
 main, 
