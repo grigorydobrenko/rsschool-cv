@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
 
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -15,11 +16,16 @@
  }
 
  .left-column {
-   width: 40%;
+   width: 36%;
+   border: 1px solid red;
  }
 
  .right-column {
-  width: 60%;
+  width: 64%;
+}
+
+.page-title {
+  padding: 125px 80px 125px 60px;
 }
   
 header, 
