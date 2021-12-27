@@ -63,51 +63,60 @@
                     </section>
                     <section class="about-me" id="about-me">
                         <h2 class="about-me-title section-title">About me</h2>
-                        <p>I’m 24 years old. My aim is achieving my full potential in life and consistently improving. Started my career as a mechanical engineer. Currently learn front-end development. I like to know and discover something new for myself. I’m hardworking and dependable team player.</p>
+                        <div class="content">
+                            <p>I’m 24 years old. My aim is achieving my full potential in life and consistently improving. Started my career as a mechanical engineer. Currently learn front-end development. I like to know and discover something new for myself. I’m hardworking and dependable team player.</p>
+                        </div>
                     </section>
                     <section class="education" id="education">
                         <h2 class="education-title section-title">Education</h2>
-                        <p>Belarusian National Technical University</p>
-                        <p>Power Engineering Faculty</p>
-                        <p>Years: 2015 - 2020</p>
-                        <p>Specialization: Industrial Power and Heat Engineering </p>                   
+                        <div class="content">
+                            <p>Belarusian National Technical University</p>
+                            <p>Power Engineering Faculty</p>
+                            <p>Years: 2015 - 2020</p>
+                            <p>Specialization: Industrial Power and Heat Engineering </p>
+                        </div>                  
                        
                     </section>
                     <section class="courses" id="courses">
                         <h2 class="courses-title section-title">Courses</h2>
-                        <ul class="courses__list">
-                            <li class="courses__item"><a href="https://itgid.info/course/html">ItGid.info. HTMl for front-end developers</a></li>
-                            <li class="courses__item"><a href="https://itgid.info/course/javascript-2">ItGid.info. Javascript_2.0</a></li>
-                            <li class="courses__item"><a href="https://itgid.info/course/arraymethod">ItGid.info. ArrayMethod</a></li>
-                            <li class="courses__item"><a href="https://itgid.info/course/function-2021">ItGid.info. JS Function 2021</a></li>
-                        </ul>
+                        <div class="content">
+                            <ul class="courses__list">
+                                <li class="courses__item"><a href="https://itgid.info/course/html">ItGid.info. HTMl for front-end developers</a></li>
+                                <li class="courses__item"><a href="https://itgid.info/course/javascript-2">ItGid.info. Javascript_2.0</a></li>
+                                <li class="courses__item"><a href="https://itgid.info/course/arraymethod">ItGid.info. ArrayMethod</a></li>
+                                <li class="courses__item"><a href="https://itgid.info/course/function-2021">ItGid.info. JS Function 2021</a></li>
+                            </ul>
+                        </div>
                     </section>
                     <section class="code-example" id="code-example">
                         <h2 class="code-example-title section-title">Code</h2>
-                        <p>
-                            ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
-
-                            If the function is passed a valid PIN string, return true, else return false.
-                        </p>
-                        <pre>
-                            <code>
-                                function validatePIN(str) {
-                                if (str.length !== 4 && str.length !== 6) {
-                                  return false;
-                                }
-                                for (let i = 0; i &lt; str.length; i++) {
-                                  if (str[i] &lt; '0' || str[i] > '9') {
-                                    return false;
+                        <div class="content">
+                            <p>
+                                ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+                                If the function is passed a valid PIN string, return true, else return false.
+                            </p>
+                            <pre>
+                                <code>
+                                    function validatePIN(str) {
+                                    if (str.length !== 4 && str.length !== 6) {
+                                      return false;
+                                    }
+                                    for (let i = 0; i &lt; str.length; i++) {
+                                      if (str[i] &lt; '0' || str[i] > '9') {
+                                        return false;
+                                      }
+                                    }
+                                    return true;
                                   }
-                                }
-                                return true;
-                              }
-                            </code>
-                        </pre>
+                                </code>
+                            </pre>
+                        </div>
                     </section>
                     <section class="language" id="language">
                         <h2 class="language-title section-title">language</h2>
-                        <p>English - B1. The results of my online testing from EF Set. I practice my English with a tutor.</p>
+                        <div class="content">
+                            <p>English - B1. The results of my online testing from EF Set. I practice my English with a tutor.</p>
+                        </div>
                     </section>
                 </div>
             </div>
