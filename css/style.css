@@ -117,6 +117,14 @@ footer {border: 1px solid red;}
 
 */
 
+.content .courses__list {
+  padding: 0 20px;
+}
+
+.courses__list {
+  list-style-type: disc;
+}
+
 
 a { text-decoration: none; }
 
