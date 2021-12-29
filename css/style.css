@@ -92,6 +92,9 @@ h2 {
   font-weight: 600;
 }
 
+.contacts-title {
+  margin-top: 10px;
+}
 
 .contact__item {
   margin-bottom: 18px;
@@ -144,9 +147,27 @@ a { text-decoration: none; }
   
   display: flex;
   justify-content: space-between;
-  background-color:  	#E0E0E0;
+  background-color:	#E0E0E0;
+  color: black;
   align-items: center;
   padding: 20px;
+}
+
+.footer__github {
+ 
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.footer__github p {
+  
+  position: relative;
+  top: 2px;
+  left: 5px;
+  font-size: 16px;
 }
 
 html {
