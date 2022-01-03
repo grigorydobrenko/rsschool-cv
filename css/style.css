@@ -6,6 +6,12 @@
   min-height: 100%;
 }
 
+.body a {
+  text-decoration: none;
+  
+}
+
+
 
 h2 {
   background-color: #FFEF94;
@@ -25,8 +31,23 @@ h2 {
 }
 
 .nav__item a {
-  padding: 10px 10px;
+  padding: 16px 16px;
   line-height: 50px;
+  color: #008000;
+  transition: .3s;
+  
+}
+
+.nav__item a:hover {
+  background-color: #E0E0E0;
+  color:black;
+  border-radius: 10px;
+}
+
+.nav__item a:active {
+  
+  color:yellow;
+  
 }
 
 .container {
@@ -101,6 +122,21 @@ h2 {
   color: #013220;
 }
 
+.contact__item a {
+  margin-bottom: 18px;
+  color: green;
+  text-decoration: underline;
+}
+
+.contact__item a:hover {
+  text-decoration: none;
+}
+
+.contact__item a:active {
+  text-decoration: none;
+  color: black;
+}
+
 .skills__item {
   margin-bottom: 18px;
   font-size: 18px;
@@ -128,8 +164,18 @@ footer {border: 1px solid red;}
   list-style-type: disc;
 }
 
+.courses__item a {
+  line-height: 40px;
+  color: black;
+}
 
-a { text-decoration: none; }
+.courses__item a:hover {
+  color: green;
+}
+
+.courses__item a:active {
+  color: yellowgreen;
+}
 
 .code {
   background-color: black;
@@ -166,8 +212,20 @@ a { text-decoration: none; }
   
   position: relative;
   top: 2px;
-  left: 5px;
+  left: 15px;
   font-size: 16px;
+  color: black;
+}
+
+.footer__github p:hover {
+  
+  
+  color: #949494 ;
+}
+
+.footer__github p:active {
+  
+  color: white ;
 }
 
 html {
